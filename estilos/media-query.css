@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){    /*TABLET*/
+
+    section#login {
+        width: 80vw;
+        height: 300px;
+    }
+
+body{
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+}
+
+section#login > div#image{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+section#login > div#form{
+    float: right;
+    width: 70%;
+}
+
+
+div#form p{
+
+    margin: 10px 0;
+   
+}
+
+
+}
+
+@media screen and (min-width: 992px) { /*TELAS GRANDES*/
+    section#login {
+        width: 950px;
+        height: 350px;
+     
+    }
+
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+
+section#login > div#image{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+section#login > div#form{
+    float: left;
+    width: 50%;
+}
+
+div#form h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+div#form p{
+    font-size: 1.0em;
+    margin: 10px 0;
+    
+}
+
+}
